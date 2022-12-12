@@ -16,6 +16,8 @@
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager.control;
 
+import android.content.Context;
+
 import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
@@ -128,9 +130,13 @@ public abstract class ExpenseManager implements Serializable {
         this.transactionsHolder = transactionDAO;
     }
 
+    public abstract void setup();
+
     /***
      * This method should be implemented by the concrete implementation of this class. It will dictate how the DAO
      * objects will be initialized.
      */
-    public abstract void setup() throws ExpenseManagerException;
+//    public abstract void setup() throws ExpenseManagerException;
+
+    public abstract void setup(Context context) throws ExpenseManagerException;
 }
