@@ -5,19 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.annotation.Nullable;
 
-public class DbHelper extends SQLiteOpenHelper {
-
-//    public static final String ACCOUNT_TABLE = "Account_Table";
-//    public static final String COL_ACCOUNT_NO = "Account_No";
-//    public static final String COL_BANK = "Bank";
-//    public static final String COL_ACCOUNT_HOLDER = "Account_Holder";
-//    public static final String COL_BALANCE = "Balance";
-//    public static final String COL_TYPE = "Type";
-//    public static final String COL_AMOUNT = "Amount";
-//    public static final String COL_DATE = "Date";
-//    public static final String COL_TRANSACTION_ID = "Transaction_ID";
-//    public static final String TRANSACTION_TABLE = "Transaction_Table";
-
+public class DataBaseHandler extends SQLiteOpenHelper {
 
     //Assigning names for required column names, so if we want to change the column name in future changing in here will be sufficient,
     public static final String Account_Holder_Name = "Account_Holder";
@@ -33,7 +21,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
 
     //Creating the database names 200623P
-    public DbHelper(@Nullable Context context) {
+    public DataBaseHandler(@Nullable Context context) {
         super(context, "200623P.db",null,1);
     }
     @Override

@@ -15,7 +15,6 @@ lk/ac/mrt/cse/dbs/simpleexpensemanager/data/model/ExpenseType.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType
 lk/ac/mrt/cse/dbs/simpleexpensemanager/data/impl/PersistentAccountDAO.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistentAccountDAO
- lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistentAccountDAO$1
 lk/ac/mrt/cse/dbs/simpleexpensemanager/data/TransactionDAO.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO
 lk/ac/mrt/cse/dbs/simpleexpensemanager/ui/ManageExpensesFragment.java
