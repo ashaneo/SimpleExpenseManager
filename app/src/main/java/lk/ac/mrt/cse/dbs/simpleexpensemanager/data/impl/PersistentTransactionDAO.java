@@ -117,7 +117,7 @@ public class PersistentTransactionDAO implements TransactionDAO {
 
         cursor.close();
         database.close();
-        return returnList;
+        return returnList; //Return the created Lists
 
 
     }
